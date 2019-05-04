@@ -1,0 +1,21 @@
+
+
+}
+body {
+	margin:0;
+}
+
+.cus-bgImage {
+	position: absolute;
+	top:0px;
+	z-index: -1;
+	opacity: 0.65;
+}
+.container {
+	max-width: 960px;
+	text-align: center;
+}
+
+.size1 {
+	font-size: 25.5vw;
+}
