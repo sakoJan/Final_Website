@@ -1,33 +1,77 @@
+html {
+	font-family: californian-fb-text, serif;
 
+}
 
 }
 body {
 	margin:0;
 }
 
-.cus-bgImage {
-	position: absolute;
-	top:0px;
-	z-index: -1;
-	opacity: 0.65;
-}
+
 .container {
 	max-width: 960px;
 	text-align: center;
 }
 
+
+.headColor {
+	background-color: rgba(200,200,200,.6);
+}
+.scaleHeader {
+	height:72px;
+}
+.cus-bgImage {
+	position: absolute;
+	top:0px;
+	z-index: -1;
+	opacity: 0.75;
+	width:1920px;
+	height:1080px;
+	object-fit: cover;
+}
+
+
 .fontSize1 {
-	font-size: 5.5vw;
+	font-size: 10rem;
 }
 .fontSize2 {
-	font-size: 4vw;
+	font-size: 4rem;
 }
-.ptMargin1 {
-	margin-top:10%;
+.fontSize3 {
+	font-size: 1.4rem;
 }
-.ptMargin2 {
-	margin-top:9%;
+.welcomeText {
+	margin-top:240px;
+}
+.fullreelText {
+	margin-top:180px;
 }
 .fullReel {
-	height:7vw;
+	height:6rem;
+	width:24rem;
+}
+
+
+.borderWidth1 {
+	border-width: thin;
+}
+
+
+.fontC {
+	font-family: californian-fb-text, serif;
+
+}
+.fontS {
+	font-family: sanvito-pro, sans-serif;
+
+}
+
+
+@media only screen and (min-width: 1080px) {
+	
+	.cus-bgImage{
+		width:100%;
+	}
+	
 }
