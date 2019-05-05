@@ -74,14 +74,40 @@ body {
 
 
 .aboutMe {
-	margin-top:300px;
-	font-size:1.75rem;
+	margin-top:360px;
+	
+}
+.aboutHead {
+	font-size:2.5rem;
+
+}
+.aboutText1 {
+	font-size:1.25rem;
+	margin-top:48px;
+
+}
+.aboutText2 {
+	margin:24px 5% 0 5%;
+	font-size:1rem;
+	line-height:1.4;
 }
 
+
+
+.resume {
+	margin:28px 0;
+	padding:16px 0;
+	font-size:3rem;
+}
 @media only screen and (min-width: 1080px) {
 	
 	.cus-bgImage{
 		width:100%;
+	}
+
+	.aboutText2 {
+		width:960px;
+		margin:24px auto 0 auto;
 	}
 	
 }
