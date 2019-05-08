@@ -15,3 +15,24 @@ function myFunction() {
     header.classList.remove("sticky1");
   }
 }
+
+function dropDown2() {
+  var element = document.getElementById("myGallery");
+  element.classList.toggle("hidden");
+}
+
+function dropDown1() {
+  var element = document.getElementById("myGallery");
+  element.classList.toggle("hidden");
+}
+
+
+function toggleButton1() {
+	var element = document.getElementById("myButton1");
+	element.classList.toggle("hidden");
+}
+
+function toggleButton2() {
+	var element = document.getElementById("myButton2");
+	element.classList.toggle("hidden");
+}

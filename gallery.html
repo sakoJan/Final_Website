@@ -58,7 +58,7 @@
 		</section><!--Welcome-->
 		<section class="flex fullreelText">
 			
-			<button class=" border-solid border-grey-darkest rounded-full headColor  m-auto fullReel borderWidth1 ">
+			<button class=" border-solid  rounded-full border-grey-darkest headColor  m-auto fullReel borderWidth1 ">
 				<a href="#" class="no-underline text-grey-lightest hover:text-grey-light">
 					<p class="px-4 fontSize2 ">
 						Full Reel
@@ -69,28 +69,69 @@
 		</section><!--Full Reel-->
 	</header>
 	
-	<main class="notContainer m-auto">
-		<section class="mainMargin">
-			<h2>
+	<main class="mainMargin text-center">
+		<section class="">
+			<h2 class="mb-12 text-center fontSize2">
 				Gallery
 			</h2>
 
-
-				<h3>
+				<h3 class="text-center">
 					Photography
 				</h3>
 
+			<div class="imageGrid mx-5P">
+				<div class="flex flex-wrap firstHalf">
+					<figure class="w-full md:w-1/2 lg:w-1/2 p-4">
+						<img class="block  border-solid  rounded-lg" src="assets/images/2.jpg" alt="">
+					</figure>
+
+					<figure class="w-full md:w-1/2 lg:w-1/2 p-4">
+						<img class="block h-auto w-full border-solid  rounded-lg" src="assets/images/10.jpg" alt="">
+					</figure>
+				</div><!--firstHalf-->
+				<button class="border-solid  rounded-full border-grey-darkest headColor px-4 mb-4 text-2xl" id="myButton2" onclick="dropDown2(); toggleButton2();toggleButton1()">
+					Click to view More
+				</button>
+				<div class="flex flex-wrap secondHalf hidden" id="myGallery">
+					<figure class="w-full md:w-1/2 lg:w-1/3 p-4">
+						<img class="block h-auto w-full border-solid  rounded-lg" src="assets/images/1.jpg" alt="">
+					</figure>
+
+					<figure  class="w-full md:w-1/2 lg:w-1/3 p-4">
+						<img class="block h-auto w-full border-solid  rounded-lg" src="assets/images/11.jpg" alt="">
+					</figure>
+					<figure  class="w-full md:w-1/2 lg:w-1/3 p-4">
+						<img class="block h-auto w-full border-solid  rounded-lg" src="assets/images/3.jpg" alt="">
+					</figure>
+
+					<figure  class="w-full md:w-1/2 lg:w-1/3 p-4">
+						<img class="block h-auto w-full border-solid  rounded-lg" src="assets/images/4.jpg" alt="">
+					</figure>
+					<figure  class="w-full md:w-1/2 lg:w-1/3 p-4">
+						<img class="block h-auto w-full border-solid  rounded-lg" src="assets/images/6.jpg" alt="">
+					</figure>
+
+					<figure  class="w-full md:w-1/2 lg:w-1/3 p-4">
+						<img class="block h-auto w-full border-solid  rounded-lg" src="assets/images/7.jpg" alt="">
+					</figure>
+				</div><!--secondHalf-->
+				
+				<button class="border-solid  rounded-full border-grey-darkest headColor px-4 mb-4 text-2xl hidden" id="myButton1" onclick="dropDown1(); toggleButton2(); toggleButton1()">
+					Click to view Less
+				</button>
+			</div><!--imageGrid-->
 
 
 
-				<h3>
+
+				<h3 class="text-center">
 					Shorts
 				</h3>
 
 
 
 
-				<h3>
+				<h3 class="text-center">
 					Animation
 				</h3>
 

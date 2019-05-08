@@ -18,7 +18,7 @@ body {
 
 
 .headColor {
-	background-color: rgba(200,200,200,.6);
+	background-color: rgba(200,200,200,.7);
 }
 .scaleHeader {
 	height:72px;
@@ -42,6 +42,10 @@ body {
 
 }
 
+.mx-5P {
+	margin: 0 5%;
+}
+
 .sticky1 + .content {
   padding-top: 86px;
 }
@@ -54,6 +58,9 @@ body {
 .fontSize3 {
 	font-size: 1.4rem;
 }
+.fontSize4 {
+	font-size: 1.2rem; 
+}
 .welcomeText {
 	margin-top:240px;
 }
@@ -65,7 +72,9 @@ body {
 	width:24rem;
 }
 
-
+.width1080 {
+	width:1080px;
+}
 .borderWidth1 {
 	border-width: thin;
 }
@@ -80,7 +89,9 @@ body {
 
 }
 
-
+.hidden {
+	display:none;
+}
 
 
 .mainMargin {
