@@ -3,60 +3,99 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, iniitial-scale=1.0">
-		<link rel="stylesheet" media=" only screen and (min-width: 960px)" href="css/stylesGallery.css" />
-		<link rel="stylesheet" media=" only screen and (max-width: 960px)" href="css/stylesGallerysmall.css" />
+		<link rel="stylesheet" media=" only screen and (min-width: 960px)" href="assets/styles/stylesGallery.css" />
+		<link rel="stylesheet" media=" only screen and (max-width: 960px)" href="assets/styles/stylesGallerysmall.css" />
 		<link href="https://fonts.googleapis.com/css?family=Cormorant+Infant|Scope+One" rel="stylesheet"/>
-		<link rel="icon" type="image/jpg" href="images/logo.jpg">
-		<title>Michael Sarkisian</title>
+		<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets/styles/custom.css">
+		<link rel="stylesheet" href="https://use.typekit.net/ebz7lyc.css">
+		<title>Sexy Devil Productions</title>
 	</head>
 	
-	<body>
-		<header>
-		<div id="headerBar"></div><!--headerBar-->
-		<div class="wrapper">
-		<div id="menuBar">
-			<a href="index.html">
-			<div id="logo">
-				<img src="images/logo.jpg" alt="logo"/>
-			</a>
-			</div><!--logo-->
-			<div id="nav">
-				<a href="index.html#about">About Me</a> | 
-				<a href="#gallery">Gallery</a>  |
-				<a href="#contact">Contact</a>
-			</div><!--nav-->
-		</div><!--menuBar-->
-		</div><!--wrapper-->
-		</header>
+
+<!--Background Image-->
+<figure>
+	<img class="cus-bgImage lg:w-full" src="assets/images/hero-image.jpg" alt="">
+</figure>
+<!--Background Image-->
+
+	<header>
+	<div id="myHeader">
+		<section class="headColor flex  justify-between m-4 px-10   border-grey-lightest   rounded-full scaleHeader ">
+			<h1>
+				<a href="#">
+					<img class="h-auto" src="assets/images/logo.jpg" alt="Michael Sarkisian Logo">
+				</a>
+			</h1>
+			<ul class="flex items-center list-reset fontSize3">
+				<li>
+					<a class="px-2 text-black hover:text-grey-darker no-underline" href="#">
+						Gallery
+					</a> |
+				</li>
+				<li>
+					<a class="pl-2 text-black hover:text-grey-darker no-underline" href="#">
+						Contact
+					</a>
+				</li>
+			</ul>
+		</section><!--nav-->
+	</div><!--myHeader-->
+		<section class="flex welcomeText content">
+			<p class="m-auto fontSize1 fontS">
+				Welcome
+			</p>
+		</section><!--Welcome-->
+		<section class="flex fullreelText">
+			
+			<button class=" border-solid  rounded-full border-grey-darkest headColor  m-auto fullReel borderWidth1 ">
+				<a href="#" class="no-underline text-grey-lightest hover:text-grey-light">
+					<p class="px-4 fontSize2 ">
+						Full Reel
+					</p>
+				</a>
+			</button>
+
+		</section><!--Full Reel-->
+	</header>
+
+	<body class="">
+
 		
-		
-		
-		
-		
-		
-		
-		
+		<main class="mainMargin">
 		
 		<div class="wrapper">
 		<div id="gallery">
-			<h2>Gallery:</h2>
+			<h2 class="my-8">Gallery:</h2>
 			<div id="shorts">
 		
-			<h3>SHORTS</h3>
+			<h3 class="mb-6">SHORTS</h3>
 				
 				<div id="vid1Container">
 				<div class="vid1">
-					<iframe width="656" height="369" src="https://www.youtube.com/embed/qaYOvV9xdcc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/4L6KO68xMPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				
 				</div><!--vid1-->
 				
 				</div><!--vidContainer-->
 				<div id="text1">
-				<h4>Thai Iced Tea Music Video:</h4>
+				<h4 class="my-8">CSUN Gamer Symphony Orchestra</h4>
 				
-				<p>This music video was made for a local band known as "The Slightlys" for my film class in my junior year at Providence High School. The name of this song is "Thai Iced Tea". It's an innocent, fun song about the love of summer-time featuring everyone's loved cold beverage. Small humans were used in the video in order to portray a sense of innocence and simple fun. <div id="discretionText">*Many cups of Thai Iced Tea were consumed during the making of this video*</div></p>
+				<p>
+					This is a documentary featuring the CSUN Gamer Symphony Orchestra. They are a group of performers at Cal State: Northridge that arrange music from various popular or even niche video games into an orchestral format and hold one concert per semester where they perform various pieces free of charge for the community to enjoy. The documentary highlights the club from the point of view of club president Andrew Krezinger. 
+				</p>
+
+
 				</div><!--text1-->	
 			</div><!--shorts-->
+			<div class="vid2Container">
+			<div class="vid1">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/qaYOvV9xdcc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div><!--vid2-->
+			</div>
+			<div class="description">
+				<p>This music video was made for a local band known as "The Slightlys". The name of this song is "Thai Iced Tea". It's an innocent, fun song about the love of summer-time featuring everyone's loved cold beverage.</p>
+			</div>
 			<div class="vid2Container">
 			<div class="vid1">
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/IdzbhjAc1Ms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -82,30 +121,24 @@
 				<p>This project was a solo project for my Senior year of High School. It is a short satirical comedy making fun of cookie-cutter action movies. </p>
 			</div>
 			
-			
-			
-			
-			<div id="photos">
-				<h3> PHOTOS</h3>
-					<img src="images/hypno-jelly.jpg" alt="Picture of Jellyfish"/>
-					<img src="images/nazi-ranch.jpg" alt="Picture of Murphy Ranch"/>
-					<img src="images/mammoth.jpg" alt="Picture from Mammoth Mountain"/>	
-			</div><!--photos-->
-		</div><!--Gallery-->
-		</div><!--wrapper-->
+			</div>
+		</div>
 
+	</main>
+			
+			
 		<footer>
-			<div class="wrapper">
 				<div id="contact">
-					<h2>Contact</h2>
-						<p>narekm123@gmail.com</p>
-						<p>(818)-331-6184 </p>
+					<h2 class="p-4">Contact</h2>
+						<p class="p-2">narekm123@gmail.com</p>
+						<p class="p-2 mb-8">(818)-331-6184 </p>
 					<div id="socialMedia">
-						<a href="https://www.facebook.com/michael.sarkisian1"><img src="images/facebook-icon.png" alt="FaceBook"></a>
-						<a href="https://www.instagram.com/michael_sarkisian/"><img src="images/instagram-icon.png" alt="Instagram"></a>
-						<a href="https://www.youtube.com/playlist?list=PLTn2F-dq7bJdB3N_Hg3J_Xti5wazDL2nY"><img src="images/youtube-icon.png" alt="YouTube"></a>
+						<a href="https://www.facebook.com/michael.sarkisian1"><img src="assets/images/facebook-icon.png" alt="FaceBook"></a>
+						<a href="https://www.instagram.com/michael_sarkisian/"><img src="assets/images/instagram-icon.png" alt="Instagram"></a>
+						<a href="https://www.youtube.com/playlist?list=PLTn2F-dq7bJdB3N_Hg3J_Xti5wazDL2nY"><img src="assets/		images/youtube-icon.png" alt="YouTube"></a>
 					</div><!--socialMedia-->
 				</div><!--contact-->
+			</div><!--gallery-->
 			</div><!--wrapper-->
 			
 		</footer>
